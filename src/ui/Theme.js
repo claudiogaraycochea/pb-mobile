@@ -5,18 +5,17 @@ import styled from 'styled-components';
 /* Container */
 export const Container = (props) => {
   return (
-    <ContainerView
-      style={{
-        backgroundColor: '#1f347d'
-      }}
-    >
+    <ContainerView>
       {props.children}
     </ContainerView>
   );
 }
 
 const ContainerView = styled.View`
+  display: flex;
   flex: 1;
   width: 100%;
+  padding-top: 20px;
+  background-color: #192744;
 `;
 /* / Container */
