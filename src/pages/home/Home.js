@@ -2,11 +2,6 @@ import React, { useRef, useState } from 'react';
 import { WebView } from 'react-native-webview';
 import { StyleSheet, Text, View } from 'react-native';
 import Loading from '../../ui/loading/Loading';
-/*import { NativeRouter, Route, Link } from "react-router-native";
-
-const Home = () => <Text>Home</Text>;
-
-const About = () => <Text>About</Text>;*/
 
 export default function Home() {
   const [visible, setVisible] = useState(true);
@@ -36,7 +31,8 @@ export default function Home() {
         onNavigationStateChange={e => processHeader(e, loadProgress)}
         // overScrollMode="never"
         source={{
-          uri: `https://test.projectbloc.io/login`,
+          //uri: `https://projectbloc.io/login/app`,
+          uri: `http://7bfc18279c72.ngrok.io/login/app`
         }}
       />
     </View>
