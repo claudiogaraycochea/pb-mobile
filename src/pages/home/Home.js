@@ -31,8 +31,8 @@ export default function Home() {
         onNavigationStateChange={e => processHeader(e, loadProgress)}
         // overScrollMode="never"
         source={{
-          //uri: `https://projectbloc.io/login/app`,
-          uri: `http://7bfc18279c72.ngrok.io/login/app`
+          uri: `https://projectbloc.io/login/app`,
+          //uri: `http://7bfc18279c72.ngrok.io/login/app`
         }}
       />
     </View>
