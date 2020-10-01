@@ -1,10 +1,14 @@
 {
   "expo": {
-    "name": "pb-mobile",
+    "name": "Project Bloc",
     "slug": "pb-mobile",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -18,14 +22,11 @@
     ],
     "ios": {
       "bundleIdentifier": "com.publicbloc.projectbloc",
-      "buildNumber": "1.0.0"
+      "buildNumber": "2.0.0"
     },
     "android": {
       "package": "com.publicbloc.projectbloc",
-      "versionCode": 1
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+      "versionCode": 2
     },
     "packagerOpts": {
       "config": "metro.config.js",
@@ -45,20 +46,3 @@
     }
   }
 }
-/*
-{
-  "expo": {
-   "name": "Your App Name",
-   "icon": "./path/to/your/app-icon.png",
-   "version": "1.0.0",
-   "slug": "your-app-slug",
-   "ios": {
-     "bundleIdentifier": "com.yourcompany.yourappname",
-     "buildNumber": "1.0.0"
-   },
-   "android": {
-     "package": "com.yourcompany.yourappname",
-     "versionCode": 1
-   }
-  }
-}*/
